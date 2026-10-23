@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Unity 게임 개발자 포트폴리오">
+    <title>Game Developer | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- 상단 메뉴 -->
+    <header class="site-header">
+
+        <nav class="navbar" aria-label="메인 메뉴">
+            <a href="#home" class="logo">GAME<span>DEV</span></a>
+
+            <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false"
+                aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- 메인 소개 -->
+        <section id="home" class="hero">
+            <p class="eyebrow">UNITY GAME DEVELOPER</p>
+
+            <h1>
+                게임을 기획하고<br>
+                <span>직접 만들어 냅니다.</span>
+            </h1>
+
+            <p class="hero-description">
+                아이디어를 플레이할 수 있는 경험으로 만드는
+                게임 개발자 이한희입니다.
+            </p>
+
+            <a href="#projects" class="btn-primary">
+                프로젝트 살펴보기
+            </a>
+        </section>
+
+        <!-- 자기소개 -->
+
+        <section id="about" class="section">
+            <p class="section-label">ABOUT ME</p>
+            <h2>개발자 소개</h2>
+
+            <p>
+                15세 시절 Scratch를 통해 프로그래밍을 접한 뒤,
+                게임 개발에 관심을 키워 왔습니다.
+                이후 Unity와 C#을 활용해 게임을 직접 기획하고 구현하며
+                개발 전반의 과정을 경험했습니다.
+            </p>
+
+            <p>
+                팀 프로젝트와 개인 프로젝트를 진행하며 문제 해결 능력을 기르고,
+                새로운 기술을 익히며 개발 역량을 쌓고 있습니다.
+                앞으로도 플레이어에게 즐거움을 주는 게임을 만드는
+                Unity 게임 개발자로 성장하고자 합니다.
+            </p>
+        </section>
+
+
+        <!-- 프로젝트 -->
+        <section id="projects" class="section">
+            <p class="section-label">MY WORK</p>
+            <h2>프로젝트</h2>
+
+
+            <div class="project-list">
+
+                <!-- 프로젝트 1 -->
+                <article class="project-card">
+                    <img class="project-image" src="assets/images/game-project-03.png" alt="게임 프로젝트 1의 플레이 화면"
+                        loading="lazy">
+
+
+                    <div class="project-info">
+                        <p class="project-category">TEAM PROJECT</p>
+                        <h3>퀴즈 기반 점프 액션 탈출 게임</h3>
+
+                        <p>
+                            퀴즈 풀이와 점프 액션을 결합한 게임 프로젝트입니다.
+                            기획부터 개발, 발표까지 전반적인 과정을 담당했으며,
+                            팀원들과 협력하여 프로젝트를 완성하고 최종 심사 단계까지 진출했습니다.
+                        </p>
+
+                        <p class="project-tech">Unity · C#</p>
+
+                        <a class="project-link" href="https://youtu.be/hufEebnP2GY?si=ygGRkcO9UyW8wr_4" target="_blank"
+                            rel="noopener noreferrer">
+                            프로젝트 영상 보기 ↗
+                        </a>
+                    </div>
+
+                </article>
+
+                <!-- 프로젝트 2 -->
+                <article class="project-card">
+                    <img class="project-image" src="assets/images/game-project-01.png" alt="개인 게임 프로젝트의 플레이 화면"
+                        loading="lazy">
+
+
+                    <div class="project-info">
+                        <p class="project-category">PERSONAL PROJECT · IN DEVELOPMENT</p>
+                        <h3>Universe - 2D RPG 게임</h3>
+
+                        <p>
+                            Unity와 C#을 활용하여 개발 중인 개인 2D 턴제 RPG 프로젝트입니다.
+                            캐릭터 선택 시스템과 캐릭터 정보 UI를 구현하고 있으며,
+                            게임 화면 구성과 사용자 인터페이스를 단계적으로 개발하고 있습니다.
+                        </p>
+
+                        <p class="project-tech">Unity · C# · TextMeshPro</p>
+
+                        <a class="project-link" href="https://youtu.be/eHBbn7LTr5A" noopener noreferrer">
+                            프로젝트 영상 보기 ↗
+                        </a>
+                    </div>
+
+                </article>
+
+                <!-- 프로젝트 3 -->
+                <article class="project-card">
+                    <img class="project-image" src="assets/images/game-project-04.png" alt="개인 2D 대전 게임 재현 프로젝트 화면"
+                        loading="lazy">
+
+                    <div class="project-info">
+                        <p class="project-category">PERSONAL PROJECT</p>
+                        <h3>2D 대전 게임 재현 프로젝트</h3>
+
+                        <p>
+                            기존 3D 대전 게임을 참고하여 2D 방식으로 재현한 개인 개발 프로젝트입니다.
+                            캐릭터 간 대전을 구현하고, 새로운 대결 조합을 구성하며
+                            게임의 재미와 연출을 탐구했습니다.
+                        </p>
+
+                        <p class="project-tech">2D Game Development · M.U.G.E.N.</p>
+
+
+                        <a class="project-link" href="https://youtu.be/-YtXrmbvuWY?si=jWk3mhFxFel18unF" target="_blank"
+                            rel="noopener noreferrer">
+                            프로젝트 영상 보기 ↗
+                        </a>
+
+                    </div>
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- 기술 -->
+        <section id="skills" class="section">
+            <p class="section-label">MY SKILLS</p>
+            <h2>기술 스택</h2>
+
+            <ul class="skill-list">
+                <li>Unity</li>
+                <li>C#</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <p class="section-label certifications-label">CERTIFICATIONS</p>
+            <h2>자격증</h2>
+
+            <ul class="skill-list">
+                <li>컴퓨터활용능력 2급</li>
+            </ul>
+        </section>
+
+
+        <!-- 연락처 -->
+        <section id="contact" class="section">
+            <p class="section-label">CONTACT</p>
+            <h2>함께 만들어 갈 기회를 기다립니다.</h2>
+
+
+            <p>
+                프로젝트와 개발 경험에 대해 더 알고 싶다면 연락해 주세요.<br>
+                전화번호: <a href="tel:01048236374">010-4823-6374</a>
+            </p>
+
+
+
+            <a href="mailto:daigo-2002@naver.com" class="btn-primary">
+                이메일 보내기
+            </a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Game Developer Portfolio</p>
+    </footer>
+
+</body>
+
+</html>
